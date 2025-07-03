@@ -25,7 +25,7 @@ For a full list of my work, see the [Projects](projects.md) page.
 ## Contact
 
 - [GitHub Profile](https://github.com/MadelineJMeyers)
-- [LinkedIn](#) <!-- Add your LinkedIn URL here -->
+- [LinkedIn](https://www.linkedin.com/in/matthew-meyers-060466280/) 
 
 ---
 
