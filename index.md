@@ -15,7 +15,7 @@ I'm a Computer Science student passionate about software engineering and data an
 
 ## Featured Projects
 
-- [CS-340-Portfolio-Project](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project)
+- [CS-340-Portfolio-Project](https://github.com/MadelineJMeyers/CS340-Portfolio-Project)
 - [IT-145-Project](https://github.com/MadelineJMeyers/IT-145-Project)
 
 For a full list of my work, see the [Projects](projects.md) page.
