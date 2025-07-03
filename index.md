@@ -1,5 +1,3 @@
-# Madeline Meyers
-
 Welcome to my ePortfolio!
 
 I'm a Computer Science student passionate about software engineering and data analytics. I specialize in C++, Java, Python, and data analysis, with a strong interest in game development and writing.
