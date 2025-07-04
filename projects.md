@@ -11,3 +11,5 @@ A foundational programming project that demonstrates my proficiency in Java.
 ---
 
 You can view more of my work on my [GitHub profile](https://github.com/MadelineJMeyers).
+
+[Github](https://github.com) icon by [Icons8](https://icons8.com")

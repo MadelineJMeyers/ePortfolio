@@ -32,3 +32,5 @@ For a full list of my work, see the [Projects](projects.md) page.
 ---
 
 Thanks for visiting!
+
+[Github](https://github.com) icon by [Icons8](https://icons8.com")
