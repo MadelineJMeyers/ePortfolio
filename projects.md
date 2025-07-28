@@ -5,6 +5,11 @@ Here are some of the projects I’ve worked on:
 ## [CS-340-Portfolio-Project](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project)
 A portfolio project showcasing my skills in software engineering and data analytics.
 
+## Code Review of CS-340 Project Created For Client/Server Development
+[![Code Review Video on Youtube]
+(https://img.youtube.com/vi/GwZzKFseVhs/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=GwZzKFseVhs)
+
 ## [IT-145-Project](https://github.com/MadelineJMeyers/IT-145-Project)
 A foundational programming project that demonstrates my proficiency in Java.
 
