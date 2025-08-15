@@ -1,10 +1,10 @@
-[Back to Home](https://madelinejmeyers.github.io/)
+[Back to Home](https://madelinejmeyers.github.io/)\
 [Back to Portfolio](https://madelinejmeyers.github.io/ePortfolio)
 
 
 # My Projects
 
-Here are some of the projects I’ve worked on:
+Here are some of the projects I’ve created during my time at SNHU:
 
 ## [CS-340-Portfolio-Project](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project)
 A portfolio project showcasing my skills in software engineering and data analytics.
