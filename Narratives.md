@@ -1,3 +1,6 @@
+[Back to home](index.md)
+[Back to projects](projects.md)
+
 # Narratives covered on this page
 
 [Narrative One](#artifact-one-narrative) for the initial enhancements for [CS340-Portfolio-Project-Enhanced](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Enhanced)
