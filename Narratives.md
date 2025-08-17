@@ -1,3 +1,9 @@
+# Narratives covered on this page
+
+[Narrative One](#artifact-one-narrative) for the initial enhancements for [CS340-Portfolio-Project-Enhanced](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Enhanced)</br></br>
+[Narrative Two](#artifact-two-narrative) for the next step enhancements for [CS340-Portfolio-Project-Enhanced](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Enhanced)</br></br>
+[Narrative Three](#artifact-three-narrative) for the thought process behind the creation of [CS-340-Portfolio-Project-Flask-Fork](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Flask-Fork)
+
 # Artifact One Narrative
 
 For the enhancements made for category one of the project started in CS 340: Client/Server Development I have taken several steps to move further with a better design and security development for the program.
