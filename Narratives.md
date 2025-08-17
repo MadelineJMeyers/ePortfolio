@@ -1,5 +1,6 @@
-[Back to home](index.md)\
-[Back to projects](projects.md)
+[Back to Home](madelinejmeyers.github.io)\
+[Back to Portfolio Main Page](index.md)\
+[Back to Projects](projects.md)
 
 # Narratives covered on this page
 
