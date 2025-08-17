@@ -15,11 +15,13 @@ I'm a Computer Science student passionate about software engineering and data an
 
 ---
 
-## Featured Projects
+## Featured Projects and Self Assessment
 
 - [CS-340-Portfolio-Project](https://github.com/MadelineJMeyers/CS340-Portfolio-Project)
 - [CS-340-Portfolio-Project-Enhanced](https://github.com/MadelineJMeyers/CS340-Portfolio-Project-Enhanced)
 - [CS-340-Portfolio-Project-Flask-Fork](https://github.com/MadelineJMeyers/CS340-Portfolio-Project-Flask-Fork)
+
+- [Professional Self Assessment](self_assessment.md)
 
 For a more comprehensive view of my work, see the [Projects](projects.md) page.
 
