@@ -1,3 +1,7 @@
+[Back to Home](https://madelinejmeyers.github.io)\
+[Back to Portfolio](index.md)\
+[Go to Projects](projects.md)
+
 # Professional Self Assessment
 
 During the beginning of my coursework at Southern New Hampshire University I have learned many fundamentals of programming and data analysis. I have used multiple programs to understand what to look for when it comes to well-structured programs and user features. It is for this reason that when I was creating my dashboard application I knew that many users would be looking for specific features such as a pie chart and histogram to examine distributions of the dashboard’s characteristics. It also was important to include a map that shows the specific points referenced in the dashboard’s longitude and latitude coordinates since these features were included with the database I was working with. The database is managed with MongoDB and as such I also knew I would need to leverage the features of this database structure to enhance my ability to search the data for any specific data points. This led me to better understand indexing strategies which can be used for many different database structures and database software.
