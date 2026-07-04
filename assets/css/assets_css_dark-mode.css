@@ -1,0 +1,34 @@
+/* Dark mode overrides for jekyll-theme-cayman */
+
+body.dark-mode {
+  background: #111 !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .page-header {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .main-content {
+  background: #181818 !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode a {
+  color: #80cbc4 !important;
+}
+
+body.dark-mode .btn {
+  background-color: #333 !important;
+  color: #e0e0e0 !important;
+  border-color: #444 !important;
+}
+
+body.dark-mode pre,
+body.dark-mode code {
+  background: #222 !important;
+  color: #80cbc4 !important;
+}
+
+/* Add more overrides as needed for your customizations */
