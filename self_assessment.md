@@ -1,15 +1,45 @@
-[Back to Home](https://madelinejmeyers.github.io)\
-[Back to Portfolio](index.md)\
-[Go to Projects](projects.md)
+[Back to Home](https://madelinejmeyers.github.io/) | [Back to Portfolio](index.md) | [Go to Projects](projects.md)
 
 # Professional Self Assessment
 
-During the beginning of my coursework at Southern New Hampshire University I have learned many fundamentals of programming and data analysis. I have used multiple programs to understand what to look for when it comes to well-structured programs and user features. It is for this reason that when I was creating my dashboard application I knew that many users would be looking for specific features such as a pie chart and histogram to examine distributions of the dashboard’s characteristics. It also was important to include a map that shows the specific points referenced in the dashboard’s longitude and latitude coordinates since these features were included with the database I was working with. The database is managed with MongoDB and as such I also knew I would need to leverage the features of this database structure to enhance my ability to search the data for any specific data points. This led me to better understand indexing strategies which can be used for many different database structures and database software.
+This assessment outlines my technical competencies, development philosophy, and the software engineering standards I apply across my projects. With a Bachelor of Science in Computer Science, my goal is to deliver optimized, secure, and user-centric software solutions that bridge the gap between complex data systems and clean front-end interfaces.
 
-To help with my ability to collaborate in a team environment I have hosted the code of my software on a GitHub repository which allows for feedback from other users of the GitHub platform. When it comes to working with a team it is important for everyone to be able to work with the same code and to update it regularly if there are any updates. This is why GitHub was chosen as this not only acts as a community for the code but also as a method of version control. This also allows for communication with stakeholders by showcasing the code in a single place that can show what changes have been made while encouraging a description of the changes and the logic behind why they were made. This can help with creating a more non-technical explanation of the code and how the changes will improve the code.
+---
 
-Data structures and algorithms are the heart of my code as they work together to handle the creation of the dashboard and the ability to filter the data for each user’s specific uses. Likewise, security is a major concern as the application should be able to keep the data it is showing secure from those who would want to use it without authorization while allowing those who are authorized to easily work with the data and transform it for further analysis.
+## 1. Software Engineering & Architectural Design
 
-# Artifacts Introduction
+A core engineering skill is the ability to choose the right framework for the right scale. I approach software development through an iterative lifecycle, moving from rapid prototyping to production-grade deployment:
+*   **Rapid Prototyping:** Used tools like Jupyter Notebooks and JupyterDash to design initial data analysis prototypes. This stage focuses on verifying database connection logic and defining data visual requirements.
+*   **Decoupled Re-architecture:** Transitioned monolithic dashboard prototypes into a fully decoupled Model-View-Controller (MVC) layout. By building a standalone Flask API backend in Python and a modular React.js frontend, the code becomes highly scalable, testable, and maintainable. This division allows independent server deployment and speeds up overall client loading.
 
-To showcase my ability to work with software engineering as a concept I have also created a more modernized version of the dashboard. While the original was written with Python with some HTML to manage the formatting of the dashboard the new version is written as a true Full-Stack application written with Python and JavaScript using the Flask and React frameworks. The original showcases my ability to create a well-functioning web-based application while the new version showcases my ability to recreate the application with new frameworks that enable a better scalable application through the modularity of the code while also allowing for a better application for production deployment. To create the best version of this full-stack application it was important to use the original Jupyter Notebook version as a prototype so I could identify what the important features were and how they worked together. This shows my ability to work on a smaller scale and to use the lessons learned from the initial project to inform the full scale project. 
+---
+
+## 2. Database Optimization & Indexing
+
+Managing data effectively requires a deep understanding of read/write patterns and structural indexing:
+*   **Performance Tuning:** In projects utilizing MongoDB, I implemented compound indexes matching the **Equality, Sort, Range (ESR)** rules. This backend optimization minimizes query scanning times, which prevents bottlenecks when users run complex dashboard filters.
+*   **Query Encapsulation:** Developed robust CRUD database drivers in Python using PyMongo. Encapsulating raw database interactions within modular class methods ensures clean abstraction, meaning the application logic never handles raw connection parameters directly.
+
+---
+
+## 3. Data Analysis & Visualization
+
+In data analytics, the goal is to transform raw records into actionable insights for stakeholders:
+*   **Geospatial Visualization:** Integrated coordinate-based plotting tools (Leaflet/Mapbox) to dynamically map latitude and longitude coordinates. This visual overlay transforms list tables into immediate geographic representations.
+*   **Interactive Visualizations:** Configured Plotly widgets, including pie charts and histograms, to track category distributions. These charts update dynamically based on user-driven filters, allowing recruiters or clients to quickly spot trends.
+
+---
+
+## 4. Security & Defensive Programming
+
+Security must be treated as a foundational requirement at every layer of the application stack:
+*   **Access Gateways:** Developed a secure authentication layer on my web interfaces to block unauthorized access to sensitive analytics.
+*   **Input Sanitization:** Structured backend APIs to validate and sanitize user parameters. By only accepting predefined dashboard parameters and avoiding raw string concatenations in database queries, the application is protected against injection attacks.
+
+---
+
+## 5. Collaboration & Professional Communication
+
+Effective software development relies heavily on version control and structured communication:
+*   **Version Control & CI/CD:** Utilized Git and GitHub for tracking code revisions and maintaining separate branch pipelines. Hosting repositories on GitHub provides a transparent ledger of code updates and simplifies pull request reviews.
+*   **Technical Writing:** Authored comprehensive project documentation and README files. Writing detailed, non-technical summaries of code changes helps translate complex logic into clear updates for clients, team members, and other stakeholders.

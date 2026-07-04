@@ -1,31 +1,61 @@
-[Back to Home](madelinejmeyers.github.io)\
-[Back to Portfolio Main Page](index.md)\
-[Back to Projects](projects.md)
+[Back to Home](https://madelinejmeyers.github.io/) | [Back to Portfolio Main Page](index.md) | [Back to Projects](projects.md)
 
-# Narratives covered on this page
+# Technical Narratives
 
-[Narrative One](#artifact-one-narrative) for the initial enhancements for [CS340-Portfolio-Project-Enhanced](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Enhanced)\
-[Narrative Two](#artifact-two-narrative) for the next step enhancements for [CS340-Portfolio-Project-Enhanced](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Enhanced)\
-[Narrative Three](#artifact-three-narrative) for the thought process behind the creation of [CS-340-Portfolio-Project-Flask-Fork](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Flask-Fork)
+Detailed assessments of the design decisions, optimization strategies, and engineering actions behind my key ePortfolio projects.
 
-# Artifact One Narrative
+## Index of Narratives
 
-For the enhancements made for category one of the project started in CS 340: Client/Server Development I have taken several steps to move further with a better design and security development for the program.
+*   [Software Design & Security Integration](#artifact-one-narrative) — Custom authentication, code refactoring, and UI enhancement.
+*   [Database Performance & Optimization](#artifact-two-narrative) — MongoDB query design, ESR compound indexing, and input security.
+*   [Full-Stack Re-engineering](#artifact-three-narrative) — Re-architecting a legacy dashboard into a modular React + Flask production application.
 
-Originally the only security was set for the CRUD module attached to main file which is used to access the MongoDB database. In this enhancement I have added a basic user authentication which requires the user to enter a username and password to view the dashboard which restricts access to the information in the dashboard until these credentials are entered by the user. I also have taken steps to create more meaningful comments throughout the code to make it easier to develop the code and to understand what each part is for and the reasoning behind these parts. I have also created a download button for the user so they may create a copy of the data if needed. The final enhancement I want to mention in this narrative is the addition of a “dark mode” for the client which darkens the majority of the screen which can make it easier on some users eyes.
+---
 
+## <a id="artifact-one-narrative"></a>Software Design & Security Integration
 
-# Artifact Two Narrative
+### Background & Challenge
+In the initial development phase, the database dashboard lacked secure access controls. Raw CRUD interface modules were exposed directly to the application environment without gating access to client-side data. The goal of this enhancement was to introduce client security and clean up codebase structure for long-term maintenance.
 
-The artifact for this category is the dashboard application that was created during CS 340: Client/Server development because to create custom filter options I would need to work to create an algorithm to search a MongoDB database. While I originally created the algorithm to search for specific rescue types I thought it would be helpful to potential clients to also be able to search for specific animal types such as dogs and cats and then to search for specifically younger animals in these categories. So, I created four new search options available in the dropdown to find these types of animals. The algorithm that was created uses not only multiple logical operators to find the animals that fit certain criteria but also includes a logical “or” operator to find animals of different genders without needing to create specific filter options for different genders which reduces the number of potential options by half as many as could have been created.
+### Implementation & Actions
+*   **Authentication Gateway:** Implemented a secure login interface requiring valid user credentials before loading database records or dashboard visualizations. This ensures sensitive search criteria and results are restricted to authorized personnel.
+*   **Interface Refactoring:** Integrated a custom export engine allowing users to download query datasets as CSV spreadsheets directly from the UI. Added a "Dark Mode" stylesheet toggle to enhance readability for different screen preferences.
+*   **Documentation Standards:** Refactored the underlying Python dashboard script, adding inline documentation and structured header blocks detailing parameter specifications, class methods, and logic flows.
 
-The skills the creation of these new options shows are the ability to create innovative solutions that use the technology that I am working with to display relevant information to clients and the flexibility of the code if new options need to be created going forward. The code also does not allow for a user to specify any custom input which reduces the amount of potential security flaws by not allowing the user to directly access the database, instead relying on the dashboard to interact with the information in the database.
+### Outcome & Skills Demonstrated
+These enhancements display a strong focus on defensive programming and user-experience engineering. They demonstrate the ability to secure raw backend access scripts while delivering standard business-oriented features (data export, accessibility options).
 
-To aid with the retrieval of information for the dashboard I created two compound indexes which were formatted based on Equality, Sort, and Range guidelines as stated in the MongoDB documentation. These are shown in the following image to show how they were set with each index following the format of the equality index, the sort index, and the range index. The second compound index uses two equality indexes due to the length of the algorithm created in VS Code and what fields were used to create the filters. The creation of these indexes show my skill when it comes to understanding the database that is being used for this project and what can be done on the backend to increase the response time of the resulting searches.
- 
-<img width="975" height="595" alt="image" src="https://github.com/user-attachments/assets/9ca24302-fd9b-4295-b835-166f45df3b05" />
+---
 
+## <a id="artifact-two-narrative"></a>Database Performance & Optimization
 
-# Artifact Three Narrative
+### Background & Challenge
+To make the dashboard useful for complex target operations, users needed the ability to run compound queries across multiple database fields (such as filtering rescue animals by species, training status, gender, and age). Running unoptimized queries against a growing MongoDB dataset can lead to performance bottlenecks and high latency.
 
-For this artifact I have chosen a program that was created in CS340: Client Server Development and I have chosen to enhance this project through the method of redeveloping the program using a new framework. The original project was created using MongoDB, Python, Plotly Dash, and Jupyter Notebook to run the program. This enhancement instead uses MongoDB, React.js, Flask, Node.js, and Plotly graphs to create a more scalable version of the program that allows for more modularization of the code and its components. The resulting application is a web dashboard app which shows a breakdown of several metrics while allowing the user to search for specific animals for certain goals. The skills I have shown through this enhancement is my skill to learn new web development frameworks including a new frontend through React.js and a new backend through Flask while also using some familiar technologies such as MongoDB and Plotly’s graphs to visualize information from MongoDB. This aligns with not only the outcome of demonstrating my ability to use well-founded and innovative technologies to create solutions with the goal of delivering value but also the outcome of designing and delivering professional quality communications.
+### Implementation & Actions
+*   **Query Algorithm Design:** Designed search algorithms utilizing Python query structures. Leveraged nested logical operators and array criteria to build comprehensive filtering options. For instance, used logical OR matching to aggregate search results across multiple genders in a single query, reducing the number of distinct query options.
+*   **MongoDB Index Optimization:** Analyzed query patterns and designed compound indexes utilizing MongoDB's **Equality, Sort, Range (ESR)** rules. As shown below, this structures index key configurations starting with exact equality fields, followed by sorting fields, and ending with range criteria.
+*   **Input Sanitization:** Ensured the dashboard application only passes predefined parameters to the backend, completely preventing raw input parameters from reaching the query engine to eliminate injection vulnerabilities.
+
+### Index Verification Screenshot
+Below is the backend index configuration verified via VS Code and the MongoDB terminal interface:
+
+<img width="975" height="595" alt="MongoDB index verification screenshot" src="https://github.com/user-attachments/assets/9ca24302-fd9b-4295-b835-166f45df3b05" />
+
+### Outcome & Skills Demonstrated
+This work demonstrates analytical skills in database optimization and query engine tuning. Applying ESR index configuration significantly reduces search execution time, illustrating an understanding of backend data modeling needed for high-performance software systems.
+
+---
+
+## <a id="artifact-three-narrative"></a>Full-Stack Re-engineering
+
+### Background & Challenge
+The original dashboard prototype was implemented as a single-file Jupyter Notebook running JupyterDash. While effective for initial prototyping, a single-file monolithic structure is difficult to scale, test, or deploy within a microservice or cloud-native architecture. 
+
+### Implementation & Actions
+*   **MVC Architecture Decoupling:** Re-architected the dashboard into a modern, decoupled Full-Stack web application. Created a React.js frontend for client UI rendering and a modular Flask API backend in Python.
+*   **RESTful API Development:** Developed API routes in Flask to process incoming database CRUD requests, returning JSON data payloads to the client. This decoupled the database client drivers from the user interface code.
+*   **Modular Component Design:** Broke the monolithic dashboard code into reusable React components (navigation, data tables, charting widgets, map frames). Managed package dependencies securely using Node.js (`npm`).
+
+### Outcome & Skills Demonstrated
+This re-engineering showcases the ability to transition a software prototype into a maintainable, modern web application stack. It highlights capabilities in full-stack JavaScript/Python development, modular system design, and the ability to learn and apply new framework ecosystems to deliver value.

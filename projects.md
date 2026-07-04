@@ -1,29 +1,59 @@
-[Back to Home](https://madelinejmeyers.github.io/)\
-[Back to Portfolio](https://madelinejmeyers.github.io/ePortfolio)
+[Back to Home](https://madelinejmeyers.github.io/) | [Back to Portfolio](https://madelinejmeyers.github.io/ePortfolio/)
 
+# Technical Projects
 
-# My Projects
+A collection of my work in software engineering, data analytics, and artificial intelligence, showcasing how my technical skills translate into production-ready software solutions.
 
-Here are some of the projects I’ve created during my time at SNHU:
+---
 
-## [CS-340-Portfolio-Project](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project)
-A portfolio project showcasing my skills in software engineering and data analytics.
+## Offline Document Intelligence Engine
+*   **Technologies:** Python, LangChain, Ollama (Llama 3 / Mistral), Document Parsers (PDF, TXT, DOCX), Vector Embeddings, RAG Pipeline
 
-## Code Review of CS-340 Project Created For Client/Server Development
-[![Code Review Video on YouTube](https://img.youtube.com/vi/rAu6ldN3Db8/maxresdefault.jpg)](https://www.youtube.com/watch?v=rAu6ldN3Db8)
+Developed a privacy-first, offline Document Intelligence Engine enabling users to perform semantic search and question-answering over local documents. 
+*   **Local Inference:** Utilized Ollama to run large language models locally, ensuring strict data privacy with zero external API dependencies.
+*   **RAG Architecture:** Built retrieval-augmented generation pipelines using LangChain to manage document loading, recursive character chunking, embedding generation, and vector retrieval.
+*   **Source Citations:** Configured custom prompt templates and search chains that return precise paragraph citations and contextual answers from loaded files.
 
-## [CS-340-Portfolio-Project-Enhanced](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Enhanced)
-An enhanced variant of the main project. This was enhanced to create a more modernized look to the application while also enhancing the algorithms to enable a faster search and filter. I have also created more filtering options for a more user-friendly interface while maintaining the functionality from the original portfolio project. These enhancements were chosen to showcase my ability to create a well structured program while also using the JupyterDash Full-Stack model to create a smoothly functioning dashboard application.
+---
 
-For a better look into my thought processes for this project check out my [Narratives](Narratives.md) for Artifacts [One](Narratives.md#artifact-one-narrative) and [Two](Narratives.md#artifact-two-narrative)
+## [Full-Stack Web Dashboard](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Flask-Fork)
+*   **Technologies:** React.js, Flask, Node.js, MongoDB, JavaScript, Python, Plotly, CSS3
 
-## [CS-340-Portfolio-Project-Flask-Fork](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Flask-Fork)
-Another variant of the main portfolio project which includes previous enhancements to maintain functionality. This version was created using Python, Flask, JavaScript, and React with Node.js as the package manager to handle deployment of the frontend server. This was created to showcase my ability to create not only a well-structured web application but also to create the program in multiple languages. This variant due to how it is structured is easier to scale and was created with modern Full-Stack development practices in mind.
+Engineered a responsive, full-stack analytics application from the ground up, re-architecting a legacy single-file dashboard into a modular, production-ready system.
+*   **Modern Frontend:** Developed a React.js client interface with reusable components for interactive filtering, coordinate mapping, and data visualizations.
+*   **RESTful Backend:** Created a modular Flask API in Python that acts as a secure intermediary between the client interface and the database.
+*   **Scalability:** Leveraged Node.js package management and modular MVC architecture, making the application easier to scale, deploy, and maintain.
 
-For a better look into my thought processes for this project check out my [Narrative](Narratives.md) for Artifact [Three](Narratives.md#artifact-three-narrative)
+For a detailed walkthrough of the re-architecture, see the [Full-Stack Re-engineering Narrative](Narratives.md#artifact-three-narrative).
+
+---
+
+## [Interactive Dashboard Prototype](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project-Enhanced)
+*   **Technologies:** JupyterDash, Python, MongoDB, PyMongo, Geopandas, Leaflet, Plotly Dash
+
+Developed an interactive dashboard prototype to search and filter database records, adding visualizations (pie charts, histograms) and coordinate-based mapping.
+*   **Query Optimization:** Implemented compound indexing in MongoDB following Equality-Sort-Range (ESR) guidelines, reducing complex filter search times significantly.
+*   **Security Integration:** Built a user authentication gateway to restrict dashboard access to authorized users and locked down database queries to predefined parameters.
+*   **Custom Filtering:** Wrote query logic employing logical operators (and/or) to streamline animal rescue data analysis by criteria such as age, gender, and training status.
+
+For details on the security and database optimizations, see the narratives for [Software Design & Security](Narratives.md#artifact-one-narrative) and [Database Performance](Narratives.md#artifact-two-narrative).
+
+---
+
+## [Client-Server CRUD Engine](https://github.com/MadelineJMeyers/CS-340-Portfolio-Project)
+*   **Technologies:** Python, MongoDB, PyMongo API, Jupyter Notebook
+
+Created the core Python CRUD (Create, Read, Update, Delete) engine that serves as the data access layer for all versions of the dashboard.
+*   **Encapsulation:** Wrote reusable database interface methods that encapsulate complex raw queries, ensuring consistent data validation.
+*   **Error Handling:** Integrated robust try-except validation blocks for database connection and manipulation operations.
+
+### Walkthrough & Code Design Review
+I recorded a code walkthrough video explaining the architecture and design of this data-access layer:
+
+[![Code Design Review on YouTube](https://img.youtube.com/vi/rAu6ldN3Db8/maxresdefault.jpg)](https://www.youtube.com/watch?v=rAu6ldN3Db8)
 
 ---
 
 You can view more of my work on my [GitHub profile](https://github.com/MadelineJMeyers).
 
-[Github](https://github.com) icon by [Icons8](https://icons8.com")
+[GitHub](https://github.com) icon by [Icons8](https://icons8.com)
